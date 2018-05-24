@@ -41,6 +41,7 @@ namespace ChangeTracker {
             }
         }
 
+        // Just added to test something on Git commit
         protected virtual void OnItemPriceChanged(double price){
             itemChanged?.Invoke(this, new ItemChangedEventArgs(price));
         }
